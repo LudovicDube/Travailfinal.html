@@ -1,0 +1,30 @@
+
+    body {
+        background: linear-gradient(to right,
+                #83bcf1 45%,
+                #f18383 55% 100%);
+    }
+    .main {
+        margin: auto;
+        max-width: 1400px;
+    }
+
+    .siteIcon {
+        background-image: URL('../images/favicon.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin-left: 8px;
+        border-radius: 30%;
+    }
+
+    .content {
+        border: 8px solid rgb(80, 78, 78);
+        border-radius: 20px;
+    }
+
+    .content p {
+        text-align: justify;
+    }

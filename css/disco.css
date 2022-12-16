@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.title {
+    font-size: 3em;
+    font-family: Raleway;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:18px;
+    padding-bottom: 38px;
+}
+
+.titremusique{
+    margin-left: 344px;
+    font-size: 2em;
+    font-family: Raleway;
+    text-align: center;
+
+}
+.musique{
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .disco{
+        display: grid;
+        grid-template-columns: auto 47%;
+        padding-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .disco{
+        display: inline-block;
+       
+        padding-bottom: 40px;
+    }
+    .titremusique{
+        margin-left:auto;
+        font-size: 2em;
+        font-family: Raleway;
+        text-align: center;
+    
+    }
+}

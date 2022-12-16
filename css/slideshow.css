@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab&display=swap');
+.title {
+    font-size: 3em;
+    font-family: Roboto Slab;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:18px;
+    padding-bottom: 38px;
+}
+.fading {
+    animation: fading 8s infinite
+}
+@keyframes fading {
+    0% {opacity: 0}
+    20% {opacity: 1}
+    80% {opacity: 1}
+    100% {opacity: 0}
+}
+.slideshow {
+    margin:auto;
+}
+.slide {
+    width: 100%;
+    border-radius: 24px;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .diapophoto{
+        margin-left: 230px;
+        margin-bottom: 100px;
+        width: 900px;
+        border: 10px solid rgba(108, 57, 124, 0.637)
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .diapophoto{
+        margin:auto;
+        margin-bottom: 100px;
+        width: 600px;
+        border: 10px solid rgba(108, 57, 124, 0.637)
+    }
+}
+@media only screen and (max-width: 800px) {
+    .diapophoto{
+        margin:auto;
+        margin-bottom: 100px;
+        width: 400px;
+        border: 10px solid rgba(108, 57, 124, 0.637)
+    }
+}

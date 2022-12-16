@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.title {
+    font-size: 3em;
+    font-family: Raleway;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:18px;
+    padding-bottom: 18px;
+}
+
+
+    @media only screen and (min-width: 1400px) {
+        .months{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+    }
+    @media only screen and (min-width: 1100px) and (max-width: 1400px) {
+        .months{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+    }
+    @media only screen and (min-width: 750px) and (max-width: 1100px) {
+        .months{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+    @media only screen and (max-width: 350px) and (max-width: 750px){
+        .months{
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
+.month{
+    background-color: #f18383;
+    border: 4px solid rgb(82, 82, 82);
+    border-radius: 8px;
+    padding:6px;
+    margin:12px;
+    width: 320px;
+    height:auto;
+}
+
+.monthTitle{
+    font-size: 1.5em;
+    font-family: Raleway;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.daysOfWeek {
+    padding-top: 7px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    font-family: Raleway;
+    font-weight:bold;
+}
+.daysContainer{
+padding-top: 7px;
+font-family: Raleway;
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+text-align: center;
+
+}
+.blue{
+    background-color: #83bcf1;
+}
+.holiday:hover,    
+.holiday:hover {
+    color:antiquewhite;
+}
+.holiday{
+    color:#1789f5;
+    font-weight: bold;
+}
+.special{
+    color:aquamarine;
+}
+.buffer{
+    padding-bottom: 70px;
+}

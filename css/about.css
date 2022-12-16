@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab&display=swap');
+.title {
+    font-size: 3em;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    text-align: center;
+    padding-top:18px;
+    padding-bottom: 18px;
+}
+.photogit{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profil{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 7px rgba(0, 0, 0, 0.479);
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.quandale{
+    display: grid;
+    grid-template-columns: 40% 20% 20% auto;
+  
+}
+.profiltext{
+    font-size: 2em;
+    font-weight: 300;
+    font-family: Roboto Slab;
+    margin-top: 20%;
+    margin-left: -80px;
+}
+

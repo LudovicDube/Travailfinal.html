@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menus {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    padding:5px;
+    background: linear-gradient(to left,
+                #83bcf1ab 45%,
+                #f18383ab 55% 100%);
+    height: auto;
+    width: calc(min(100%, 1400px));
+    border-radius: 15px;
+    border: solid 4px rgb(73, 72, 72);
+}
+
+.icon {
+    font-size:28px !important;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: rgba(65, 65, 65, 0.815);
+}
+
+.menuText {
+    font-size: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 35px auto;
+    color: rgb(49, 49, 49);
+    align-items: center;
+    text-decoration: none;
+    font-family: Anybody;
+}
+
+.menu:hover,    
+.menu:hover .icon {
+    color: rgb(204, 218, 218);
+    -webkit-text-fill-color:rgb(204, 218, 218);
+}
+
+.menu:active,
+.menu:active .icon {
+    color: dodgerblue;
+    -webkit-text-fill-color: dodgerblue;
+}
+
+.selected,
+.selected .icon {
+    color: green;
+    -webkit-text-fill-color: #5398d1 
+}
+
+.menuBuffer {
+    height: 85px;
+}
+
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}
